@@ -29,4 +29,4 @@ What's better than to use the empty rear corners? Exactly!</p>
 
 <h1>Coding.</h1>
 <h3>Installing WLED Klipper Helper.</h3>
-<p>I recommend by starting with installing [WLED Klipper Helper](https://github.com/iamlite/WLED-Klipper-Helper)>WLED Klipper Helper< this will install all the base things you need.</p>
+<p>I recommend by starting with installing <a href"https://github.com/iamlite/WLED-Klipper-Helper">WLED Klipper Helper</a> this will install all the base things you need.</p>
