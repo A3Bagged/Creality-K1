@@ -28,5 +28,18 @@ What's better than to use the empty rear corners? Exactly!</p>
 <h3>Step 1.</h3>
 
 <h1>Coding.</h1>
-<h3>Installing WLED Klipper Helper.</h3>
-<p>I recommend by starting with installing <a href"https://github.com/iamlite/WLED-Klipper-Helper">WLED Klipper Helper</a> this will install all the base things you need.</p>
+<h3>1. Installing WLED</h3>
+<p>I won't take you through the whole process, if it's your first time i recommend Looking up a video on Youtube on how to install WLED to an ESP32.</br>
+Hook up your ESP32 to your computer by USB and next go to <a href="https://install.wled.me">Install WLED</a> and install WLEd to your ESP32. No need to make presets just yet.</p>
+
+<h3>2. Installing WLED Klipper Helper.</h3>
+<p>I recommend by starting with installing <a href="https://github.com/iamlite/WLED-Klipper-Helper">WLED Klipper Helper</a> this will install all the base things you need.</br>
+It will take you through all steps including making your presets. I will share my presets later in this article.</p>
+
+<h3>The actual coding of the bars.</h3>
+<p>First of all i recommend deleting the <code>WLED_Macros.cfg</code> as it's <i>Read only</i>. <br>
+Next copy <a href="">WLED_Macro.cfg</a> and upload it to your config (or copy the raw and create a new file with the same name).</p>
+
+<p>Next, make the following changes:</p>
+
+
