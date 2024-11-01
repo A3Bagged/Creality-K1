@@ -26,3 +26,7 @@ What's better than to use the empty rear corners? Exactly!</p>
 > Applying changes to your wiring at your own risk, be careful and make sure the printer is off and disconnected.
 
 <h3>Step 1.</h3>
+
+<h1>Coding.</h1>
+<h3>Installing WLED Klipper Helper.</h3>
+<p>I recommend by starting with installing [WLED Klipper Helper](https://github.com/iamlite/WLED-Klipper-Helper)>WLED Klipper Helper< this will install all the base things you need.</p>
