@@ -4,7 +4,8 @@
 I made this mod because i wanted to light up the dark area beneath the print bed.</br>
 What's better than to use the empty rear corners? Exactly!
 
-<img alt="Visitors" src="https://vbr.nathanchung.dev/badge?page_id=https://github.com/A3Bagged/Creality-K1/Led%20Bars/README.md"/> <img alt="GitHub Downloads (specific asset, all releases)" src="https://img.shields.io/github/downloads/A3Bagged/Creality-K1/LED_Bars.stl"/> <img alt="Version" src="https://img.shields.io/github/v/release/A3Bagged/Creality-K1/Led%20Bars"/>
+<img alt="Visitors" src="https://vbr.nathanchung.dev/badge?page_id=https://github.com/A3Bagged/Creality-K1/Led%20Bars"/> <img alt="GitHub Downloads (specific asset, all releases)" src="https://img.shields.io/github/downloads/A3Bagged/Creality-K1/LED_Bars.stl"/> <img alt="Version" src="https://img.shields.io/github/v/release/A3Bagged/Creality-K1/Led%20Bars"/>\
+<img src="https://img.shields.io/github/v/release/A3Bagged/LED%20Bars?style=for-the-badge&color=red" alt="version" style="margin: 5px;" />
 
 # List of items needed.
   - WS2812B 5v Ledstrip (144Leds per meter)
@@ -15,8 +16,7 @@ What's better than to use the empty rear corners? Exactly!
   - 4x M3x10 screws
   - Optional: Soldering iron.
 
-> [!NOTE]
-> If you're using a WB2812B 12v strip use a 24 to 12v converter instead.
+:warning: If you're using a WB2812B 12v strip use a 24 to 12v converter instead.
 
 # Installation.
 
