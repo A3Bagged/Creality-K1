@@ -47,7 +47,7 @@ Install the diffusers using 2x M3x10 screws on the middle side panel hole and th
 ## Coding.
 ### 1. Installing WLED
 I won't take you through the whole process, if it's your first time i recommend Looking up a video on Youtube on how to install WLED to an ESP32.
-Hook up your ESP32 to your computer by USB and next go to [Install WLED](https://install.wled.me) and install WLEd to your ESP32. No need to make presets just yet.
+Hook up your ESP32 to your computer by USB and next go to [Install WLED](https://install.wled.me) and install WLED to your ESP32. No need to make presets just yet.
 
 ---
 
@@ -62,7 +62,7 @@ First of all i recommend deleting the ```WLED_Macros.cfg``` as it's _Read only_.
 Next copy [WLED_Macros.cfg](Config/WLED_Macros.cfg) and upload it to your config (or copy the raw and create a new file with the same name).
 
 WLED_Macros.cfg
-```
+```jinja2
 [gcode_macro UPDATE_WLED]
 description: update wled state
 gcode:
@@ -84,7 +84,7 @@ With these changes we will be able to change Brightness, speed and intensity of 
 
 ### 4. Optional: Print progress bar
 If you want your bars to project the progress of your current print add the following to your ```WLED_Macros.cfg```
-```
+```jinja2
 [delayed_gcode _update_leds_loop]
 initial_duration: 5
 gcode:
@@ -138,15 +138,15 @@ Change *chamber* to whatever your strip is called in your ```Moonraker.conf``` f
 If you're like me and don't want the print complete anymation running for the rest of the time add the following codes:
 (this will wait 1 minute before switching to idle preset of your WLED)
 
-WLED_M<acros.cfg
-```
+WLED_Macros.cfg
+```jinja2
 [delayed_gcode backto_idle]
 gcode:
   UPDATE_WLED PRESET=4
 ```
 
 gcode_macro.cfg (or wherever your "END_PRINT" is located) riht at the end before M84:
-```
+```jinja2
 # Delayed gcode form WLED_macros.cfg, back to idle after 60 secs
   UPDATE_DELAYED_GCODE ID=backto_idle DURATION=60
 ```
