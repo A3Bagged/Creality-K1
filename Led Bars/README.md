@@ -56,7 +56,7 @@ It will take you through all steps including making your presets. I will share m
 
 ### 3. The actual coding of the bars.
 First of all i recommend deleting the ```WLED_Macros.cfg``` as it's _Read only_.
-Next copy [WLED_Macro.cfg](codes/WLED_Macro.cfg) and upload it to your config (or copy the raw and create a new file with the same name).
+Next copy [WLED_Macros.cfg](Config/WLED_Macros.cfg) and upload it to your config (or copy the raw and create a new file with the same name).
 
 WLED_Macros.cfg
 ```
