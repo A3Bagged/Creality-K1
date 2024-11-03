@@ -1,10 +1,9 @@
 ![LEDBars](https://github.com/user-attachments/assets/73e892b0-e88e-4a2f-92ea-b266db715b7c)
+<div align="center"><img alt="Visitors" src="https://vbr.nathanchung.dev/badge?page_id=https://github.com/A3Bagged/Creality-K1/Led%20Bars"/> <img alt="GitHub Downloads (specific asset, all releases)" src="https://img.shields.io/github/downloads/A3Bagged/Creality-K1/Led Bars/STL/LED_Bars.stl"/> <img alt="Version" src="https://img.shields.io/github/v/release/A3Bagged/Creality-K1/Led Bars"/></div>
 
 # Introduction
 I made this mod because i wanted to light up the dark area beneath the print bed.</br>
 What's better than to use the empty rear corners? Exactly!
-
-<img alt="Visitors" src="https://vbr.nathanchung.dev/badge?page_id=https://github.com/A3Bagged/Creality-K1/Led%20Bars"/> <img alt="GitHub Downloads (specific asset, all releases)" src="https://img.shields.io/github/downloads/A3Bagged/Creality-K1/Led Bars/STL/LED_Bars.stl"/> <img alt="Version" src="https://img.shields.io/github/v/release/A3Bagged/Creality-K1/Led Bars"/>
 
 # List of items needed.
   - WS2812B 5v Ledstrip (144Leds per meter)
