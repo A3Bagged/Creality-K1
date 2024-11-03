@@ -41,6 +41,9 @@ It could be hard getting the 18AWG wires through the raceway covers, you might n
 Wire the + and - from your ledstrips to the 5v output of the power converter.  and the green Data wires to free pins on the ESP.
 If you want 2 seperate strips wire one to pin "D4" and the other to "D2" else wire both strips to "D4".
 
+### Step 6.
+Install the diffusers using 2x M3x10 screws on the middle side panel hole and the rear panel. (I personally only used 1 screw in the side panel).
+
 ## Coding.
 ### 1. Installing WLED
 I won't take you through the whole process, if it's your first time i recommend Looking up a video on Youtube on how to install WLED to an ESP32.
