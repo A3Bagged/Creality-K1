@@ -5,6 +5,8 @@
 I made this mod because i wanted to light up the dark area beneath the print bed.</br>
 What's better than to use the empty rear corners? Exactly!
 
+<img src="https://media.discordapp.net/attachments/534181275465154580/1312496302218678375/IMG_4779.jpg?ex=674cb4ef&is=674b636f&hm=4fa48bb488902141febd871787c76929a11f11c8106dbea19a56625086fce5e0&=&format=webp&width=500&height=667"/><img src="https://media.discordapp.net/attachments/534181275465154580/1312496209570824252/IMG_4672.jpg?ex=674cb4d9&is=674b6359&hm=b99ec7ae3fa566dbcbf36b715e002bf136b315244da2ae1a7e91ac0adde939af&=&format=webp&width=500&height=667"/>
+
 # List of items needed.
   - WS2812B 5v Ledstrip (144Leds per meter)
   - ESP32 board.
@@ -35,9 +37,13 @@ The black negative wire should be hooked up to the "GND" Pin. (if you're using 1
 Solder some 18AWG wire to your ledstrips and place them in the corners of your frame with the wires towards the top and run the wires behind the steppers into the raceway cover.
 It could be hard getting the 18AWG wires through the raceway covers, you might need to remove them and glue them in when you're done or print custom ones.
 
+<img src="https://media.discordapp.net/attachments/534181275465154580/1312496234342256760/IMG_4772.jpg?ex=674cb4df&is=674b635f&hm=802e4cf7d381c3a3f88f2210a76e66f5f5b7f6b593e7e8509a24ebd0134fe897&=&format=webp&width=330&height=440"/><img src="https://media.discordapp.net/attachments/534181275465154580/1312496249382895786/IMG_4773.jpg?ex=674cb4e2&is=674b6362&hm=92b4a4d984bbf6c8c38d6c9ec79d2fc8c44bea45f6ec6a6d36771dccadc3696f&=&format=webp&width=330&height=440"/><img src="https://media.discordapp.net/attachments/534181275465154580/1312496268223975576/IMG_4774.jpg?ex=674cb4e7&is=674b6367&hm=42dd904313b1c313fa8d6d07d6af706045d2e6bf6b2f20fc94cf2d92693f1051&=&format=webp&width=330&height=440"/>
+
 ### Step 5
 Wire the + and - from your ledstrips to the 5v output of the power converter.  and the green Data wires to free pins on the ESP.
 If you want 2 seperate strips wire one to pin "D4" and the other to "D2" else wire both strips to "D4".
+
+<img src="https://media.discordapp.net/attachments/534181275465154580/1312496279284224040/IMG_4775.jpg?ex=674cb4e9&is=674b6369&hm=bdcfd4d21a4eb223b410d0d6d5ca21f6a922814c4e45253c5b3e143221cb5722&=&format=webp&width=500&height=667"/><img src="https://media.discordapp.net/attachments/534181275465154580/1312496291066155008/IMG_4776.jpg?ex=674cb4ec&is=674b636c&hm=729198e32e07a327c0868a6e88f9a9b6af8a7d127b9c4cf25f51a7895313591d&=&format=webp&width=500&height=667"/>
 
 ### Step 6.
 Install the diffusers using 2x M3x10 screws on the middle side panel hole and the rear panel. (I personally only used 1 screw in the side panel).
@@ -155,6 +161,11 @@ gcode_macro.cfg (or wherever your "END_PRINT" is located) riht at the end before
 To get the best out of your presets take a note of the following things:
 
 For a progress bar while printing modify your "printing" preset to ```percent``` with the *intensity* slider all the way to the left 0%.
+
+---
+
+## Images:
+Some immages of the build:
 
 ---
 
