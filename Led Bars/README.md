@@ -164,11 +164,6 @@ For a progress bar while printing modify your "printing" preset to ```percent```
 
 ---
 
-## Images:
-Some immages of the build:
-
----
-
 Enjoy your fancy printer case :)
 
 
